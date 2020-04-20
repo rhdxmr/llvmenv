@@ -260,7 +260,9 @@ fn load_entry_toml(toml_str: &str) -> Result<Vec<Entry>> {
 
 fn official_releases() -> Result<Vec<Entry>> {
     [
+        (9, 0, 0),
         (8, 0, 0),
+        (7, 0, 1),
         (7, 0, 0),
         (6, 0, 1),
         (6, 0, 0),
